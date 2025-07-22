@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom color variables for better color harmony */
+:root {
+  --primary: #6c63ff;
+  --secondary: #ffb6b9;
+  --accent: #f7cac9;
+  --neutral: #f8f8f8;
+  --text-main: #22223b;
+  --text-light: #fff;
+  --bg-main: #f8f8f8;
+  --bg-card: #ffffff;
+  --border-main: #e0e0e0;
+}
+
+/* Example usage for body background and text */
+body {
+  background: var(--bg-main);
+  color: var(--text-main);
+}

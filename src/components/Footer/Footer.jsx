@@ -39,32 +39,31 @@ const FooterLinks = [
 
 const Footer = () => {
   return (
-    <div style={BannerImg} className="text-white">
-      <div className="container">
-        <div data-aos="zoom-in" className="grid md:grid-cols-3 pb-44 pt-5">
+    <div className="bg-gradient-to-b from-[#F3B6B6] via-[#A89CC8] to-[#8CA6DB] text-white rounded-t-2xl shadow-2xl">
+      <div className="container px-2 sm:px-6">
+        <div data-aos="zoom-in" className="grid grid-cols-1 gap-8 pt-5 pb-24 md:grid-cols-3">
           {/* company details */}
-          <div className="py-8 px-4">
-            <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
+          <div className="px-4 py-8">
+            <h1 className="flex items-center gap-3 mb-3 text-xl font-bold text-justify sm:text-3xl sm:text-left">
               <img src={footerLogo} alt="" className="max-w-[50px]" />
-              Shopsy
+              GeminiShop
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in
-              beatae ea recusandae blanditiis veritatis.
+              GeminiShop - Nền tảng mua sắm hiện đại, đa dạng sản phẩm, dịch vụ tận tâm và trải nghiệm khách hàng tuyệt vời. Chúng tôi cam kết mang đến cho bạn sự hài lòng tối đa khi mua sắm trực tuyến.
             </p>
           </div>
 
           {/* Footer Links */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10">
+          <div className="grid grid-cols-2 col-span-2 sm:grid-cols-3 md:pl-10">
             <div>
-              <div className="py-8 px-4">
-                <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
+              <div className="px-4 py-8">
+                <h1 className="mb-3 text-xl font-bold text-justify sm:text-xl sm:text-left">
                   Important Links
                 </h1>
                 <ul className="flex flex-col gap-3">
                   {FooterLinks.map((link) => (
                     <li
-                      className="cursor-pointer hover:text-primary hover:translate-x-1 duration-300 text-gray-200"
+                      className="text-gray-200 duration-300 cursor-pointer hover:text-primary hover:translate-x-1"
                       key={link.title}
                     >
                       <span>{link.title}</span>
@@ -74,14 +73,14 @@ const Footer = () => {
               </div>
             </div>
             <div>
-              <div className="py-8 px-4">
-                <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
+              <div className="px-4 py-8">
+                <h1 className="mb-3 text-xl font-bold text-justify sm:text-xl sm:text-left">
                   Links
                 </h1>
                 <ul className="flex flex-col gap-3">
                   {FooterLinks.map((link) => (
                     <li
-                      className="cursor-pointer hover:text-primary hover:translate-x-1 duration-300 text-gray-200"
+                      className="text-gray-200 duration-300 cursor-pointer hover:text-primary hover:translate-x-1"
                       key={link.title}
                     >
                       <span>{link.title}</span>
@@ -95,24 +94,30 @@ const Footer = () => {
 
             <div>
               <div className="flex items-center gap-3 mt-6">
-                <a href="#">
-                  <FaInstagram className="text-3xl" />
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                  <FaInstagram className="text-3xl hover:text-[#A89CC8] duration-200" />
                 </a>
-                <a href="#">
-                  <FaFacebook className="text-3xl" />
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                  <FaFacebook className="text-3xl hover:text-[#8CA6DB] duration-200" />
                 </a>
-                <a href="#">
-                  <FaLinkedin className="text-3xl" />
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                  <FaLinkedin className="text-3xl hover:text-[#F3B6B6] duration-200" />
                 </a>
               </div>
               <div className="mt-6">
-                <div className="flex items-center gap-3">
-                  <FaLocationArrow />
-                  <p>Noida, Uttar Pradesh</p>
-                </div>
-                <div className="flex items-center gap-3 mt-3">
-                  <FaMobileAlt />
-                  <p>+91 123456789</p>
+                <div className="flex flex-col gap-2">
+                  <div className="flex items-center gap-3">
+                    <FaLocationArrow />
+                    <span>Tiên Sơn, Đà Nẵng</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <FaMobileAlt />
+                    <span>0123 456 789</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <span className="font-semibold">Email:</span>
+                    <span>support@geminishop.vn</span>
+                  </div>
                 </div>
               </div>
             </div>

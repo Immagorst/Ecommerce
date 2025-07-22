@@ -5,8 +5,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#fea928",
-        secondary: "#ed8900",
+        // Softer pastel tones for GeminiShop
+        primary: "#8CA6DB",      // soft muted blue
+        secondary: "#F3B6B6",    // soft muted pink
+        accent: "#A89CC8",       // soft muted purple
       },
       container: {
         center: true,

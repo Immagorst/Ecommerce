@@ -43,7 +43,7 @@ const Hero = ({ handleOrderPopup }) => {
   };
 
   return (
-    <div className="relative overflow-hidden min-h-[550px] sm:min-h-[650px] bg-gray-100 flex justify-center items-center dark:bg-gray-950 dark:text-white duration-200 ">
+    <div className="relative overflow-hidden min-h-[550px] sm:min-h-[650px] bg-gradient-to-br from-[#8CA6DB] via-[#A89CC8] to-[#F3B6B6] flex justify-center items-center dark:bg-gray-950 dark:text-white duration-200 rounded-b-3xl shadow-xl px-2 sm:px-6">
       {/* background pattern */}
       <div className="h-[700px] w-[700px] bg-primary/40 absolute -top-1/2 right-0 rounded-3xl rotate-45 -z[8]"></div>
       {/* hero section */}
@@ -51,7 +51,7 @@ const Hero = ({ handleOrderPopup }) => {
         <Slider {...settings}>
           {ImageList.map((data) => (
             <div>
-              <div className="grid grid-cols-1 sm:grid-cols-2">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center">
                 {/* text content section */}
                 <div className="flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1 relative z-10">
                   <h1
@@ -77,7 +77,7 @@ const Hero = ({ handleOrderPopup }) => {
                   >
                     <button
                       onClick={handleOrderPopup}
-                      className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full"
+                      className="bg-gradient-to-r from-[#8CA6DB] to-[#A89CC8] hover:scale-105 duration-200 text-white py-3 px-6 rounded-full font-semibold shadow-md"
                     >
                       Order Now
                     </button>

@@ -6,7 +6,7 @@ import { GiFoodTruck } from "react-icons/gi";
 
 const Banner = () => {
   return (
-    <div className="min-h-[550px] flex justify-center items-center py-12 sm:py-0">
+    <div className="min-h-[550px] flex justify-center items-center py-8 sm:py-0 bg-gradient-to-br from-[#8CA6DB] via-[#A89CC8] to-[#F3B6B6] rounded-2xl shadow-xl px-2 sm:px-6">
       <div className="container">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 items-center">
           {/* image section */}
@@ -27,8 +27,7 @@ const Banner = () => {
               data-aos="fade-up"
               className="text-sm text-gray-500 tracking-wide leading-5"
             >
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
-              reiciendis inventore iste ratione ex alias quis magni at optio
+              Đừng bỏ lỡ cơ hội nhận ưu đãi lớn tại GeminiShop! Sản phẩm chất lượng, giao hàng nhanh chóng và nhiều chương trình khuyến mãi hấp dẫn đang chờ bạn.
             </p>
             <div className="flex flex-col gap-4">
               <div data-aos="fade-up" className="flex items-center gap-4">
