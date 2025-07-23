@@ -41,25 +41,23 @@ Clone kho chứa này về máy của bạn:
 
 Bash
 
-git clone https://github.com/[your-github-username]/[your-repo-name].git
+git clone https://github.com/Immagorst/Ecommerce.git
 Di chuyển vào thư mục dự án:
 
 Bash
 
-cd [your-repo-name]
+cd Ecommerce
 Cài đặt các gói phụ thuộc:
 
-Bash
-
 npm install
+
 Chạy server development:
 
-Bash
-
 npm run dev
+
 Mở trình duyệt và truy cập vào http://localhost:5173 (hoặc cổng mà Vite cung cấp).
 
 ## Liên hệ
-[Tên của bạn] - [email@example.com]
+Nguyễn Minh Hiệp - nmh31052005179@gmail.com
 
 Link dự án: [https://github.com/your-github-username/your-repo-name]
