@@ -1,8 +1,8 @@
-Shopsy - Nền tảng E-commerce hiện đại
+GeminiShop - Nền tảng E-commerce hiện đại
 Một giao diện E-commerce được xây dựng bằng React, Vite, và Tailwind CSS, mang lại trải nghiệm mua sắm mượt mà và trực quan cho người dùng.
 
 ## Giới thiệu dự án
-Shopsy là một ứng dụng web thương mại điện tử giao diện người dùng (front-end) hiện đại, có thiết kế đáp ứng (responsive). Dự án mô phỏng các chức năng cốt lõi của một trang bán hàng trực tuyến, từ việc xem sản phẩm, thêm vào giỏ hàng, cho đến quản lý giỏ hàng.
+GeminiShop là một ứng dụng web thương mại điện tử giao diện người dùng (front-end) hiện đại, có thiết kế đáp ứng (responsive). Dự án mô phỏng các chức năng cốt lõi của một trang bán hàng trực tuyến, từ việc xem sản phẩm, thêm vào giỏ hàng, cho đến quản lý giỏ hàng.
 
 Link Demo: ecommerce-olive-tau-97.vercel.app
 
