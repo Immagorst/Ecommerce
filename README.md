@@ -60,4 +60,4 @@ Mở trình duyệt và truy cập vào http://localhost:5173 (hoặc cổng mà
 ## Liên hệ
 Nguyễn Minh Hiệp - nmh31052005179@gmail.com
 
-Link dự án: [https://github.com/your-github-username/your-repo-name]
+Link dự án: https://github.com/Immagorst/Ecommerce
